@@ -3157,7 +3157,7 @@ function renderAll() {
   ov.classList.toggle('hidden', !pre);
   document.body.classList.toggle('predraft', pre);
   const sf = document.getElementById('soFoot');
-  if (sf) sf.textContent = S().teams + '-Team · ' + scoringLabel(S().scoring) + ' · ' + totalRounds() + ' Rounds · build 22';
+  if (sf) sf.textContent = S().teams + '-Team · ' + scoringLabel(S().scoring) + ' · ' + totalRounds() + ' Rounds · build 23';
 }
 
 // Broadcast ticker: announce recent picks along the bottom of the scorebug.
@@ -4335,7 +4335,7 @@ function renderSettingsHub() {
 
   // ABOUT
   H.push('<div class="sgroup"><div class="sgroup-h"><span class="ic">◈</span>ABOUT</div>' +
-    '<div class="sgroup-sub" style="margin-top:0">MeatballParm Draft Assistant · mobile · v2.2 · build 22<br>Created by MeatballParm — draft engine, rankings board &amp; live-sync tracker.<br><span style="opacity:.65">Live draft sync is read-only · Rankings data: FantasyPros ECR (2026)</span></div></div>');
+    '<div class="sgroup-sub" style="margin-top:0">MeatballParm Draft Assistant · mobile · v2.2 · build 23<br>Created by MeatballParm — draft engine, rankings board &amp; live-sync tracker.<br><span style="opacity:.65">Live draft sync is read-only · Rankings data: FantasyPros ECR (2026)</span></div></div>');
 
   H.push('<div style="height:20px"></div>');
   document.getElementById('settingsHubBody').innerHTML = H.join('');

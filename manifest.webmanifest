@@ -1,0 +1,17 @@
+{
+  "name": "MeatballParm Draft Assistant",
+  "short_name": "MeatballParm",
+  "description": "MeatballParm's fantasy draft assistant — AI mock drafts, live draft sync, player queue, and saved drafts.",
+  "start_url": "index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fdf6e8",
+  "theme_color": "#fdf6e8",
+  "categories": ["sports", "utilities"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
